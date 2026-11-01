@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "demo" : "npx playwright test tests/demo/mytest.spec.ts --headed",
+    "test": "npx playwright test",
+    "test-report": "npx playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
